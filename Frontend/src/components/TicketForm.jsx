@@ -45,7 +45,14 @@ setTimeout(() => {
 
     <form
       onSubmit={handleSubmit}
-      className="bg-white p-6 rounded-xl shadow mb-8"
+      className="
+  bg-white/10
+  backdrop-blur-lg
+  p-6
+  rounded-2xl
+  shadow-2xl
+  mb-8
+"
     >
 {
   success && (
